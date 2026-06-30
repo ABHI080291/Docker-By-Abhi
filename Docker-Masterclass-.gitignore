@@ -1,0 +1,129 @@
+# Docker-Masterclass .gitignore
+
+# OS Files
+.DS_Store
+Thumbs.db
+.env.local
+desktop.ini
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+*.sublime-project
+*.sublime-workspace
+.vim/
+.emacs.d/
+
+# Editor backup files
+*.bak
+*.backup
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+
+# Docker logs and data
+docker-compose.override.yml
+.docker/
+docker-compose.local.yml
+
+# Temporary files
+*.log
+logs/
+*.pid
+*.seed
+.tmp/
+temp/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Dependencies
+vendor/
+.bundle/
+
+# Testing
+coverage/
+.coverage
+.pytest_cache/
+.tox/
+
+# Project specific
+.env
+.env.*.local
+secrets/
+private/
+*.key
+*.pem
+*.crt
+
+# Archives
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# IDE Generated
+.classpath
+.project
+.settings/
+bin/
+
+# OS Generated
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Misc
+.cache
+.DS_Store*
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Local development overrides
+docker-compose.local.yml
+.env.local
+.env.*.local
+
+# Ignore local notes
+personal-notes.md
+TODO.md
+my-*.md
